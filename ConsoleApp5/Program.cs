@@ -43,7 +43,7 @@ namespace ConsoleApp5
         }
         static void Automate()
         {
-            LogMessage("Getting RootElement...");
+            LogMessage("Getting Root...");
             AutomationElement rootElement = AutomationElement.RootElement;
 
             if (rootElement != null)
