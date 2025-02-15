@@ -35,7 +35,7 @@ namespace ConsoleApp5
         {
             Automation.Condition condition = new PropertyCondition(AutomationElement.AutomationIdProperty, id);
 
-            LogMessage("Поиск " + id + " ...");
+            LogMessage("Поиск элемента" + id + " ...");
             Thread.Sleep(1000);
             AutomationElement appElement = rootElement.FindFirst(TreeScope.Children, condition);
 
