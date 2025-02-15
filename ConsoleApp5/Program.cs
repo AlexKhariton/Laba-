@@ -19,7 +19,7 @@ namespace ConsoleApp5
     {
         static void LogMessage(string s)
         {
-            Console.WriteLine(s + "\n");
+            Console.WriteLine("INFO: " + s + "\n");
         }
         static AutomationElement findElementbyName(AutomationElement rootElement, string name)
         {
